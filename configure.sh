@@ -39,9 +39,9 @@ cat << EOF > /usr/local/etc/v2ray/config.json
         "kcpSettings": {},
         "httpSettings": {},
         "wsSettings": {
-          "path": "/LN9evTin/",
+          "path": "",
           "headers": {
-            "Host": "paratestear.herokuapp.com"
+            "Host": ""
           }
         },
         "quicSettings": {}
