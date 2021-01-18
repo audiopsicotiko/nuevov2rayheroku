@@ -25,10 +25,22 @@ cat << EOF > /usr/local/etc/v2ray/config.json
                         "alterId": 64
                     }
                 ],
-                "disableInsecureEncryption": false
+                "disableInsecureEncryption": true
             },
             "streamSettings": {
-                "network": "ws"
+              "network": "ws",
+              "security": "none",
+              "tlsSettings": {},
+              "tcpSettings": {},
+              "kcpSettings": {},
+              "httpSettings": {},
+              "wsSettings": {
+                "path": "/LN9evTin/",
+                "headers": {
+                  "Host": "paratestear.herokuapp.com"
+                }
+              },
+              "quicSettings": {}
             }
         }
     ],
