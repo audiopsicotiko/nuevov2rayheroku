@@ -28,19 +28,7 @@ cat << EOF > /usr/local/etc/v2ray/config.json
                 "disableInsecureEncryption": true
             },
             "streamSettings": {
-              "network": "ws",
-              "security": "none",
-              "tlsSettings": {},
-              "tcpSettings": {},
-              "kcpSettings": {},
-              "httpSettings": {},
-              "wsSettings": {
-                "path": "/LN9evTin/",
-                "headers": {
-                  "Host": "paratestear.herokuapp.com"
-                }
-              },
-              "quicSettings": {}
+                "network": "ws"
             }
         }
     ],
