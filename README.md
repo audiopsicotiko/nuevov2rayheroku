@@ -1,3 +1,5 @@
+####### cambiar alterid por "0"  en el cliente
+
 # V2Ray Heroku
 
 ## 概述
